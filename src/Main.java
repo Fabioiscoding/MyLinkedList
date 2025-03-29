@@ -3,7 +3,6 @@
 public class Main {
     public static void main(String[] args) {
         MyLinkedList l = new MyLinkedList();
-
         l.addfirst(1);
         l.addfirst(7);
         l.addfirst(3);
@@ -13,6 +12,5 @@ public class Main {
         System.out.println(l);
         System.out.println(l.size());
         System.out.println(l.isEmpty());
-
     }
 }
